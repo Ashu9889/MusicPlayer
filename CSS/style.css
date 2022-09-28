@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Player-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   background-color: #f7f7f7;
+   font-family: QuickSand;
+   padding: 20px;
+}
+.Player{
+    background-color: wheat;
+    border-radius: 15px ;
+    text-align: center;
+    height: 30rem;
+    width: 20rem;
+}
+.Player h2,h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: .5rem;
+}
+.audio-image{
+    width: 250px;
+    height: 250px;
+    margin-inline: auto;
+    /* background-color: red; */
+    margin-block: 5%;
+ 
+    
+}
+.audio-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button span{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+    
+}
+.button span:hover{
+  background-color: black;
+  color: white;
+
+}
+
+.button span i{
+    font-size: 1.8rem;
+
+}
+
+.animate{
+   animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.volumeBtn{
+  margin-top: 20px;
+  
+}
+
+.volumeBtn input{
+
+    
+
+}
+
+
